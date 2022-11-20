@@ -21,7 +21,7 @@ use assignment;
 
 -- a) Insert the following data into the table
 
-    INSERT INTO countries (             name, population,            capital )
+    INSERT INTO countries (             name,     population,            capital )
                    Values (          'China',	    1382, 	   'Beijing' ),
                           (          'India',	    1326,	     'Delhi' ),
                           (  'United States',	     324,  'Washington D.C.' ),
@@ -50,10 +50,10 @@ use assignment;
 -- b) Add a couple of countries of your choice
 					
     INSERT INTO countries (          name, population,   capital )
-                   Values ( 'South Korea',	       51, 	 'Seoul' ),
-                          (    'Colombia',		     50,	'Bogota' ),
-                          (       'Spain',		     46,	'Madrid' ),                      
-                          (      'Uganda',		     45, 'Kampala' );
+                   Values ( 'South Korea',         51,   'Seoul' ),
+                          (    'Colombia',         50,  'Bogota' ),
+                          (       'Spain',         46,  'Madrid' ),                      
+                          (      'Uganda',         45, 'Kampala' );
 
     select *
       from countries;
