@@ -2,6 +2,8 @@
 
 # SET 1
 
+## [Download Link for SQL Database](https://raw.githubusercontent.com/MoinDalvs/EXCELR_Data_Analyst_SQL_Assignment_Part1/main/ConsolidatedTables.sql)
+
 ## 1. create a database called 'assignment' (Note please do the assignment tasks in this database)
 	
 ## 2. Create the tables from ConsolidatedTables.sql and enter the records as specified in it.
@@ -208,3 +210,4 @@ Rename table countries to big_countries;
 
     select *
       from emp_sal;
+
