@@ -186,14 +186,14 @@ Rename table countries to big_countries;
             ELSE  10
       END;
    
-# 9. Create a unique index on the emp_id column.
+## 9. Create a unique index on the emp_id column.
 
     describe EMP_ID_UNIQemp;
 
     CREATE UNIQUE INDEX EMP_ID_UNIQ
       ON emp ( emp_id );
 
-# 10. Create a view called emp_sal on the emp table by selecting the following fields in the order of highest salary to the lowest salary.
+## 10. Create a view called emp_sal on the emp table by selecting the following fields in the order of highest salary to the lowest salary.
 
 -- emp_no, first_name, last_name, salary
 
